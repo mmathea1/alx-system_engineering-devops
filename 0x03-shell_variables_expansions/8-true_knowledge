@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($TRUEKNOWLEDGE+128))
+tail -n 1 ../../../root/iacta >>  ../../../root/iacta
