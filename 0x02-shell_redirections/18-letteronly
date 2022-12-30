@@ -1,2 +1,2 @@
 !#/bin/bash
-cat /etc/ssh/sshd_config | grep -Eow "[A-Za-z]\w+"
+cat /etc/ssh/sshd_config | grep -Eow "^[A-Za-z]\w+"
