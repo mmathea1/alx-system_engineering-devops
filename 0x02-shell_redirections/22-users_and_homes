@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | sort -t: -k3,3 -k4,4
+sort -g -t : -k 3 /etc/passwd
