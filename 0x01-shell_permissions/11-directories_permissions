@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod uga+x -R {} +
+chmod -R +X ./ 
